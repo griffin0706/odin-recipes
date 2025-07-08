@@ -1,0 +1,41 @@
+* {
+    background-color: #101828;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+}  
+
+div {
+    
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    
+}
+
+.recipes{
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+    margin:auto;
+}
+
+.recipes-container {
+    display:block;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(31, 161, 161);
+    border-color:rgb(31, 161, 161);
+}
